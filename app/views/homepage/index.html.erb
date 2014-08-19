@@ -96,7 +96,7 @@
              <div class="div-tabs">
                <% Food.all.each do |f| %>
                   <div class="grid_3">
-                    <a href="#" class="gal"><%= image_tag "page3_img1.jpg" %><span></span></a>
+                    <a href="#" class="gal"><%= image_tag f.pic_url %><span></span></a>
                     <div class="col2"><span class="col3"><a href="#"><%= f.name %></a></span> $<%= f.price %></div>
                   </div>
                <% end %>

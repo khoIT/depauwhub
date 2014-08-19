@@ -35,6 +35,9 @@ group :production, :staging do
       gem 'rails_12factor'
 end
 gem 'debugger'
+gem 'twitter-bootstrap-rails'
+gem "therubyracer"
+gem "less-rails"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

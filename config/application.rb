@@ -18,7 +18,7 @@ module Restaurant
     # Enable the asset pipeline
     config.assets.enabled = true
     # Add the fonts path
-    config.assets.paths << "#{Rails.root}/vendor/assets/fonts"
+    config.assets.paths << "#{Rails.root}/vendor/assets"
     config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
 
     config.serve_static_assets = true
