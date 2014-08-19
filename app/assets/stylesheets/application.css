@@ -10,5 +10,9 @@
  *
  *= require_self
  *= require_tree .
+ *= require homepage
  *= require menu
+ *= require reset
+ *= require style
+ *= require touchTouch
  */
