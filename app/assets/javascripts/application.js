@@ -11,6 +11,9 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
+//= require jquery-migrate-1.1.1
+//= require jquery.tabs.min
+//= require jquery.ui.totop
+//= require touchTouch.jquery
 //= require turbolinks
 //= require_tree .
