@@ -28,7 +28,7 @@
 			items = allitems;
 		
 		// Appending the markup to the page
-		overlay.hide().appendTo('body');
+		//overlay.hide().appendTo('body');
 		slider.appendTo(overlay);
 		
 		// Creating a placeholder for each image

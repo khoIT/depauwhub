@@ -15,5 +15,6 @@
 //= require jquery.tabs.min
 //= require jquery.ui.totop
 //= require touchTouch.jquery
+//= require superfish
 //= require turbolinks
 //= require_tree .
